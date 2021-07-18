@@ -1,0 +1,186 @@
+*{
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: monospace , sans-serif;
+
+}
+
+.App{
+  background-color: #1aa179;
+    background-size: cover;
+    background-position: bottom;
+    transition: 0.4s ease-out;
+    height: 100vh;
+}
+main{
+    min-height: 100vh;
+    padding: 25px;
+}
+
+
+.searchBox{
+    width:100%;
+    margin: 0 auto 75px;
+
+}
+
+.searchBox .searchBar{
+    display: block;
+    width: 100%;
+    padding: 15px;
+
+    appearance: none;
+    background: none;
+    border: none;
+    outline: none;
+
+    background-color: rgb(255, 255 ,255, 0.5);
+    border-radius: 0px 0px  16px 16px;
+    margin-top: -25px;
+    box-shadow: 0px 5px rgb(0, 0,0,0.2);
+
+    color: #313131;
+    font-size: 20px;
+
+
+}
+
+.searchBox .searchBar:focus{
+    background-color: rgb(255, 255 ,255, 0.75);
+}
+
+.LocationBox .Location{
+    color: #ffffff;
+    font-size: 32px;
+    font-weight: 500px;
+    text-align: center;
+    text-shadow: 3px 3px rgb(50,50,70,0.5);
+}
+
+.LocationBox .date{
+    color: #ffffff;
+    font-size: 20px;
+    font-weight: 300px;
+    text-align: center;
+    font-style: italic;
+    text-shadow: 2px 2px rgb(50,50,70,0.5);
+}
+
+.weatherBox{
+    text-align: center;
+
+}
+.weatherBox .temp{
+    position: relative;
+    display: inline-block;
+    margin: 30px auto;
+    background-color: rgb(255, 255 ,255, 0.2);
+    border-radius: 16px;
+
+    padding: 15px 25px;
+    color: white;
+    font-size: 102px;
+    font-weight: 900;
+
+    text-shadow:3px rgb(50,50,70,0.5) ;
+    text-align: center;
+    box-shadow: 3px 6px rgb(0, 0,0,0.2);
+}
+.weatherBox .weather{
+    color: white;
+    font-size: 48px;
+    font-weight: 700;
+    text-shadow: 3px 3px rgb(50,50,70,0.5);
+
+}
+
+.blog-url .blogUrl{
+    position:relative;
+    color:black;
+    font-weight: 900;
+    background-color: rgb(255, 255 ,255, 0.2);
+    border-radius: 16px;
+    float: left; 
+    margin-top: -60px;
+    margin-right: 0;
+    text-align: center;
+    align-content: center;
+    display:flexbox ;
+    padding: 5px 10px;
+    text-decoration: none;
+
+}
+
+
+ 
+
+
+h2{
+    font-size: 2rem;
+    letter-spacing: var(--spacing);
+    text-transform: capitalize;
+    line-height: 1;
+    margin-bottom: 0.75rem; 
+}
+ul {
+    list-style-type: none;
+
+  }
+  a {
+    text-decoration: none;
+  }
+
+
+  
+
+  p {
+    margin-bottom: 1.25rem;
+  }
+  .booklink {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: #222;
+    color: aliceblue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    border-radius: 5px;
+    margin-top: 30px;
+
+  }
+  .booklink:hover{
+    color:bisque;
+  }
+
+ 
+  @media screen and (min-width: 800px) {
+    h1 {
+      font-size: 4rem;
+    }
+    h2 {
+      font-size: 2.5rem;
+    }
+    h3 {
+      font-size: 1.75rem;
+    }
+    h4 {
+      font-size: 1rem;
+    }
+    body {
+      font-size: 1rem;
+    }
+    h1,
+    h2,
+    h3,
+    h4 {
+      line-height: 1;
+    }
+  }
+ 
+   
+
